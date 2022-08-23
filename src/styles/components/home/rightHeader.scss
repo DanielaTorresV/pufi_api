@@ -1,0 +1,26 @@
+.containerRightHeader{
+    display: flex;
+    p{
+        color: var(--white);
+        font-size: 11px;
+        margin: 4px;
+    }
+    padding-bottom: 30px;
+}
+
+.rightHeader-account{
+    display: flex;
+}
+
+.rightHeader-icon{
+    color: var(--white);
+    font-size: 11px;
+    padding-top: 4px;
+}
+
+.rightHeader-divider{
+    width: 0.3px;
+    background-color: var(--white);
+    height: 15px;
+    margin: 4px;
+}

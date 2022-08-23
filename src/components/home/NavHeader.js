@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCouch,
   faUmbrella,
@@ -10,7 +9,7 @@ import VerticalDivider from "./reusables/VerticalDivider";
 
 const NavHeader = () => {
   return (
-    <div className="NavHeader">
+    <div className="navHeader">
       <PufiIconHeader icon={faCouch} name={"PUFI PUFF"} />
       <VerticalDivider styleName={"verticalDivider-white"} />
       <PufiIconHeader icon={faUmbrella} name={"PUFI RAIN"} />

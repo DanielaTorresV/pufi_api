@@ -1,4 +1,4 @@
-const VerticalDivider = (styleName) => {
+const VerticalDivider = ({ styleName }) => {
   return <div className={styleName}></div>;
 };
 

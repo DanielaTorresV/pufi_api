@@ -1,0 +1,24 @@
+.navHeader {
+display: flex;
+margin-top: 10px;
+}
+
+.containerPufiIconHeader{
+display: flex;
+flex-direction: column;
+padding: 5px;
+}
+
+.iconNavHeader{
+color: white;
+font-size: 2.5ch;
+margin: 2px;
+
+}
+
+.namePufiIconHeader{
+color: white;
+font-weight: 400;
+font-size: 15px;
+margin-top: 3px;
+}

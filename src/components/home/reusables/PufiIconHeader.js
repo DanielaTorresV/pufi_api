@@ -1,12 +1,9 @@
-const PufiIconHeader = (icon, name) => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+const PufiIconHeader = ({ icon, name }) => {
   return (
     <div className="containerPufiIconHeader">
-      <img
-        className="imgPufiIconHeader"
-        src={icon}
-        alt="icon"
-        loading="lazy"
-      ></img>
+      <FontAwesomeIcon icon={icon} className="iconNavHeader" />
       <p className="namePufiIconHeader">{name}</p>
     </div>
   );
