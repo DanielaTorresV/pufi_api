@@ -2,3 +2,15 @@ html,
 body {
   font-family: var(--font-default);
 }
+
+.verticalDivider-white{
+  width: 2px;
+  background-color: var(--white);
+  height: 26px;
+}
+
+.verticalDivider-gray{
+  width: 2px;
+  background-color: var(--gray-dark);;
+  height: 26px;
+}
