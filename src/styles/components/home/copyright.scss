@@ -1,0 +1,14 @@
+.containerCopyRight{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px;
+    margin: 0 80px;
+    border-top: 0.5px solid var(--gray-dark);
+    width: 80%;
+}
+
+.textCopyRight{
+    color: var(--gray-dark);
+    font-size: 12px;
+}

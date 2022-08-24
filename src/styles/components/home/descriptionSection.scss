@@ -1,0 +1,93 @@
+.containerDescriptionSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionSection-rain{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+}
+
+.containerPufiImgButton-rain{
+    height: 100%;
+    width: 50%;
+}
+
+.pufiImgButton-rain{
+    height: 100%;    
+    background-image: url("https://res.cloudinary.com/dannytorres/image/upload/v1661213165/Pufi/xlmch6shdrrhtcyfxjzm.jpg"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionSection-puff{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+}
+
+.containerPufiImgButton-puff{
+    height: 100%;
+    width: 50%;
+}
+
+.pufiImgButton-puff{
+    height: 100%;    
+    background-image: url("https://res.cloudinary.com/dannytorres/image/upload/v1661212898/Pufi/chtei74ot6hjmuh57hy9.jpg"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionSection-cart{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+}
+
+.containerPufiImgButton-cart{
+    height: 100%;
+    width: 50%;
+}
+
+.pufiImgButton-cart{
+    height: 100%;    
+    background-image: url("https://res.cloudinary.com/dannytorres/image/upload/v1661266454/Pufi/imekmbchndqixvx7yl4c.webp"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionSection-nap{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+}
+
+.containerPufiImgButton-nap{
+    height: 100%;
+    width: 50%;
+}
+
+.pufiImgButton-nap{
+    height: 100%;    
+    background-image: url("https://res.cloudinary.com/dannytorres/image/upload/v1661266454/Pufi/s5qgg0efuzcmw9sgoyah.webp"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+

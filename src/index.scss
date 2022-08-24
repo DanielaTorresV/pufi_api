@@ -1,0 +1,29 @@
+/* abstracts */
+@import "./styles/abstracts/variables";
+@import "./styles/abstracts/mixins";
+
+/* base */
+@import "./styles/base/base";
+@import "./styles/base/resets";
+
+/* components */
+@import "./styles/components/home/sections/header.scss";
+@import "./styles/components/home/navHeader.scss";
+@import "./styles/components/home/rightHeader.scss";
+@import "./styles/components/home/reusables/imgCarousel.scss";
+@import "./styles/components/home/reusables/buttonShop.scss";
+@import "./styles/components/home/reusables/buttonMore.scss";
+@import "./styles/components/home/descriptionSection.scss";
+@import "./styles/components/home/reusables/pufiDescription.scss";
+@import "./styles/components/home/reusables/imageEspufiCollages.scss";
+@import "./styles/components/home/espufiSection.scss";
+@import "./styles/components/home/form.scss";
+@import "./styles/components/home/sections/footer.scss";
+@import "./styles/components/home/reusables/sectionFooter.scss";
+@import "./styles/components/home/security.scss";
+@import "./styles/components/home/socialMedia.scss";
+@import "./styles/components/home/copyright.scss";
+
+/* pages */
+@import "./styles/pages/Home.scss";
+@import "./styles/pages/NotFound.scss";
