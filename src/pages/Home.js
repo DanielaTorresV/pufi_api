@@ -1,12 +1,12 @@
 import Header from "../components/home/sections/Header";
-import Body from "../components/home/sections/Body";
+import MainContainer from "../components/home/sections/MainContainer";
 import Footer from "../components/home/sections/Footer";
 
 const Home = () => {
   return (
     <div className="home">
       <Header />
-      <Body />
+      <MainContainer />
       <Footer />
     </div>
   );

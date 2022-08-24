@@ -3,15 +3,15 @@ import DescriptionSection from "../DescriptionSection";
 import EspufiSection from "../EspufiSection";
 import Form from "../Form";
 
-const Body = () => {
+const MainContainer = () => {
   return (
-    <body className="body">
+    <div className="body">
       <ImgCarousel />
       <DescriptionSection />
       <EspufiSection />
       <Form />
-    </body>
+    </div>
   );
 };
 
-export default Body;
+export default MainContainer;

@@ -1,7 +1,10 @@
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { registerUser } from "../../store/reducers/User.reducer";
 
 const Form = () => {
   const [email, setEmail] = useState("");
+  const dispatch = useDispatch();
 
   const handleChange = (e) => {
     const { value } = e.target;
@@ -9,7 +12,12 @@ const Form = () => {
   };
 
   const handleSubmit = () => {
-    console.log(email);
+    const regex = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+    if (regex.test(email)) {
+      dispatch(registerUser(email));
+    } else {
+      alert("El email no es válido, no podrás suscribirte!");
+    }
   };
 
   return (
