@@ -11,9 +11,10 @@ body {
 }
 
 .verticalDivider-gray{
-  width: 2px;
+  width: 0.5px;
   background-color: var(--gray-dark);;
-  height: 26px;
+  height: 90px;
+  margin: 4px;
 }
 
 .horizontalDivider{
